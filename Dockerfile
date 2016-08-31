@@ -24,8 +24,8 @@ RUN go get -u github.com/gosexy/redis
 ### protobuf
 RUN go get github.com/golang/protobuf; exit 0
 ### qiniu
-RUN go get qiniupkg.com/api.v7/conf
-RUN go get qiniupkg.com/api.v7/kodo
+RUN go get qiniupkg.com/api.v7/conf; exit 0
+RUN go get qiniupkg.com/api.v7/kodo; exit 0
 ### pingpp
 RUN go get github.com/pingplusplus/pingpp-go/pingpp
 RUN ### RongCloud
