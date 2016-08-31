@@ -38,6 +38,8 @@ RUN go get github.com/panthesingh/goson
 RUN go get github.com/joho/godotenv
 ### errors for library
 RUN go get github.com/go-errors/errors
+### alidayu
+RUN go get github.com/WindomZ/go-alidayu
 # Finish
 
 WORKDIR /go/src/tapi
