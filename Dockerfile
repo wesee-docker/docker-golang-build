@@ -44,7 +44,7 @@ RUN go get github.com/WindomZ/go-alidayu
 
 WORKDIR /go/src/tapi
 
-CMD ["CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go; ./main"]
+CMD ["CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go;", "./main"]
 
 EXPOSE 8080
 VOLUME ["/data"]
