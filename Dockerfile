@@ -10,7 +10,7 @@ RUN go get golang.org/x/time; exit 0
 # 安装iris
 # go get -u github.com/kataras/iris
 RUN go get github.com/kataras/iris
-RUN go get github.com/iris-contrib/middleware
+RUN go get github.com/iris-contrib/middleware; exit 0
 ### beego
 RUN go get -u github.com/beego/bee
 RUN go get -u github.com/astaxie/beego
@@ -22,7 +22,7 @@ RUN go get github.com/go-sql-driver/mysql
 RUN go get -u github.com/gosexy/redis
 # 会遇到问题的：menteslibres.net/gosexy/to
 ### protobuf
-RUN go get github.com/golang/protobuf
+RUN go get github.com/golang/protobuf; exit
 ### qiniu
 RUN go get qiniupkg.com/api.v7/conf
 RUN go get qiniupkg.com/api.v7/kodo
