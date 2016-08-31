@@ -22,7 +22,7 @@ RUN go get github.com/go-sql-driver/mysql
 RUN go get -u github.com/gosexy/redis
 # 会遇到问题的：menteslibres.net/gosexy/to
 ### protobuf
-RUN go get github.com/golang/protobuf; exit
+RUN go get github.com/golang/protobuf; exit 0
 ### qiniu
 RUN go get qiniupkg.com/api.v7/conf
 RUN go get qiniupkg.com/api.v7/kodo
