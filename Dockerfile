@@ -41,7 +41,7 @@ RUN go get github.com/go-errors/errors
 ### alidayu
 RUN go get github.com/WindomZ/go-alidayu
 ### redisgo
-RUN go get github.com/garyburd/redigo
+RUN go get github.com/garyburd/redigo; exit 0
 # Finish
 
 WORKDIR /go/src/tapi
