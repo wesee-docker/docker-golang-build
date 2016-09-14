@@ -40,11 +40,11 @@ RUN go get github.com/joho/godotenv
 RUN go get github.com/go-errors/errors
 ### alidayu
 RUN go get github.com/WindomZ/go-alidayu
+### redisgo
+RUN go get github.com/garyburd/redigo
 # Finish
 
 WORKDIR /go/src/tapi
-
-CMD ["CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build main.go;", "./main"]
 
 EXPOSE 8080
 VOLUME ["/data"]
