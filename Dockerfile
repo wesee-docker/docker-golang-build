@@ -11,6 +11,7 @@ RUN go get golang.org/x/time; exit 0
 # go get -u github.com/kataras/iris
 RUN go get github.com/kataras/iris
 RUN go get github.com/iris-contrib/middleware; exit 0
+RUN go get github.com/iris-contrib/logger; exit 0
 ### beego
 RUN go get -u github.com/beego/bee
 RUN go get -u github.com/astaxie/beego
