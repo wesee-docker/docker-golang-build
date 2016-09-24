@@ -43,6 +43,8 @@ RUN go get github.com/go-errors/errors
 RUN go get github.com/WindomZ/go-alidayu
 ### redisgo
 RUN go get github.com/garyburd/redigo; exit 0
+### guquery
+RUN go get github.com/PuerkitoBio/goquery; exit 0
 # Finish
 
 WORKDIR /go/src/tapi
